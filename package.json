@@ -1,0 +1,41 @@
+{
+  "name": "whatsapp-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "@adiwajshing/baileys": "^3.5.2",
+    "axios": "^0.21.1",
+    "child_process": "^1.0.2",
+    "express": "^4.17.1",
+    "file-type": "^16.5.0",
+    "form-data": "^4.0.0",
+    "mime-types": "^2.1.31",
+    "moment-timezone": "^0.5.33",
+    "node-cron": "^3.0.0",
+    "node-fetch": "^2.6.1",
+    "qrcode": "^1.4.4",
+    "socket.io": "^4.1.2",
+    "spinnies": "^0.5.1",
+    "yargs": "^17.0.1"
+  },
+  "engines": {
+    "node": "16.6.1"
+  },
+  "scripts": {
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justpiple/whatsapp-bot.git"
+  },
+  "author": "ben",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justpiple/whatsapp-bot/issues"
+  },
+  "homepage": "https://github.com/justpiple/whatsapp-bot#readme"
+}
